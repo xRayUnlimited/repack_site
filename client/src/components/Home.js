@@ -4,7 +4,7 @@ import { Header } from 'semantic-ui-react';
 
 const Home = () => (
   <Header textAlign="center" as="h3">
-    Welcome To The Myspace <Link to="/apps">Bulletin Board</Link>
+    Welcome To Yourspace <Link to="/apps">Bulletin Board</Link>
   </Header>
 )
 
