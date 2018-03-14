@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import FetchApps from './components/FetchApps';
+import FetchPosts from './components/FetchPosts';
 import NoMatch from './components/NoMatch';
 
 const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/apps" component={FetchApps} />
+    <Route path="/posts" component={FetchPosts} />
     <Route component={NoMatch} />
   </Switch>
 )
@@ -16,5 +15,3 @@ const App = () => (
 
 export default App;
 
-
-export default App;
